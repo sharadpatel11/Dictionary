@@ -16,7 +16,7 @@ function Footer() {
         <p>Thank you for visiting! Discover more words, tips, and insights by bookmarking us. Share your favorites with friends!</p>
       </div>
       <div className='buttons'>
-        <button className="bookmark" onClick={handleSubmit}>Bookmark Us</button>
+        <button className="bookmark" onClick={handleSubmit}>Bookmark</button>
         <button className="share" onClick={handleSubmit}>Share</button>
       </div>
     </div>

@@ -37,7 +37,6 @@
     border-radius: 15px;
     padding: 15px;
     background-color: #E1E1E1;
-    font-size: 25px;
 }
 
 form {
@@ -54,6 +53,7 @@ input {
     outline: none;
     border: none;
     background-color: #E1E1E1;
+    font-size: 25px;
 }
 
 .extra {
@@ -74,6 +74,10 @@ input {
     .heading h1 {
         margin: 10px;
     }
+
+    input {
+        font-size: 23.65px;
+    }
 }
   
 @media screen  and (max-width: 700px) {
@@ -89,10 +93,6 @@ input {
 
     .info p {
         margin: 8px;
-    }
-    
-    .search {
-        font-size: 1rem;
     }
 }
 
@@ -112,8 +112,8 @@ input {
       }
       
       .search {
-            width: 40vw;
-          font-size: .75rem;
+          width: 40vw;
+          font-size: 18.65px;
           padding: 10px 10px 10px 10px;
       }
 
@@ -121,4 +121,8 @@ input {
         width: 17.73px;
         height: 18.65px;
       }
+
+      input {
+        font-size: 18.65px;
+    }
 }

@@ -6,16 +6,17 @@
     font-style: normal;
     font-size: 1.25rem;
     color: rgba(46, 64, 81, 1);
-    height: 100vh;
+    height: 100%;
     background-image: url("../../../public/Assets/Ellipse1.png"), url("../../../public/Assets/Ellipse2.png"), url("../../../public/Assets/Ellipse8.png") ;
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position:
       70% 50%,
       left 50%,
-      100% 40%;
+      110% 40%;
 
     display: flex;
     flex-direction: row;
+    padding-top: 25px;
 }
 
 .information {
@@ -130,12 +131,14 @@
         width: 100vw;
         flex-direction: column;
         justify-content: space-evenly;
-        height: 110vh;
+        height: 100%;
 
         background-position:
             70% 50%,
             left 50%,
             110% 40%;
+
+        padding: 15px 0px 0px 0px;
     }
 
     .information {
